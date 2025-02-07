@@ -312,6 +312,30 @@ body{
     transform: scale(1.2);
 }
 
+/*Responsivo*/
+
+@media (max-width:768px) {
+
+    .cabecalho {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menus{
+        flex-direction: column;
+    }
+
+    .rodape{
+        flex-direction: column;
+        height: auto;
+    }
+
+
+}
+
 
 
 
