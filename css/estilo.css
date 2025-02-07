@@ -1,0 +1,318 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+
+.cabecalho{
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+
+}
+
+.menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.menus li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.menus li:hover{
+    transform: scale(1.2);
+}
+
+.logoTopo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bntAssinante button{
+    border: solid 1px green;
+    border-radius: 20px;
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bntAssinante button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+/*banner*/
+.banner img{
+    width: 100%;
+    height: 450px;
+}
+
+.banner{
+    height: 450px;
+}
+
+.fundoServicos {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #86ff47;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.servico{
+    display: flex;
+    width: 310px;
+    height: 110px;
+    gap: 10px;
+}
+
+/*Planos*/
+.fundoPlanos{
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.textosPlanos{
+    text-align: center;
+}
+
+.wifiTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.wifiTexto img{
+    width: 50px;
+    height: 50px;
+}
+
+.wifiTexto h4{
+    color: #01ff01;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.wifiTexto strong{
+    color: green;
+    font-size: 30px;
+}
+
+.textosPlanos p{
+    font-family: Bahnschrift;
+    font-size: 15px;
+}
+
+.textosPlanos h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.planos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cardPlano{
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+
+.cardPlano:hover{
+    transform: scale(1.1);
+}
+
+.textoMega{
+    background-color: #008800;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.textoMega h3{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.textoPlano{
+    color: #012709;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.conteudoCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.precoPlano{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 8px;
+}
+
+.preco{
+    font-size:48px;
+    font-weight: bold;
+}
+
+.mensal{
+    color: #605a5a
+}
+
+.itensPlano{
+    margin-top: 10px;
+}
+
+.item{
+    font-family: "Dubai Light";
+    list-style-type: none;
+}
+
+.btnAssineAgora{
+    background-color: #32CD32;
+    color: white;
+    border-radius: 50px;
+    width: 185px;
+    height: 50px;
+    font-weight: bold;
+    border: solid 1px green;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btnAssineAgora:hover{
+    background-color: #008800;
+}
+
+/*Clientes*/
+
+.fundoCardCliente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardCliente{
+    background-color: #dbf2db;
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.textoCliente{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cardCliente p{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #128f12;
+    font-size: 17px;
+}
+
+.cardCliente h3{
+    font-size: 20px;
+}
+
+.fotoCliente img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+
+.rodape{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: #004a00;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.rodape p{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.logoRodape img{
+    width: 240px;
+    height: 100px;
+}
+
+.redeSocialRodape img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.redeSocialRodape img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
